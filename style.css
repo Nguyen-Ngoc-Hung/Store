@@ -1,0 +1,22 @@
+button{
+    border: solid royalblue 2px;
+    background-color: black;
+    color: yellow;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+#challenge-1{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    border: solid rgb(26, 26, 218) 2px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+}
