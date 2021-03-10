@@ -9,5 +9,11 @@ function age()
     var answer = document.createTextNode('Your age: ' + yourAge);
     h1.setAttribute("id","out-put");
     h1.appendChild(answer);
+    document.getElementById("result-box").innerHTML = '';
     document.getElementById('result-box').appendChild(h1);
 }
+function reset()
+{
+    document.getElementById("result-box").innerHTML = '';
+}
+
